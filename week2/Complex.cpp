@@ -34,7 +34,8 @@ int main() {
   Complex w(5, 6);
   Complex z = x.add(y);
   add(x, y).print();
+  cout << endl;
   z.print();
-
+  cout << endl;
   (x + y).print();
 }
